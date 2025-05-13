@@ -69,14 +69,14 @@ nav ul li a:hover {
     font-size: 3.5rem;
     margin-bottom: 20px;
     font-weight: bold; /* অলরেডি আছে */
-    color: white; /* রঙ সাদা করা হলো */
+    color: #ffffff; /* রঙ সাদা করা হলো */
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
     font-size: 1.4rem;
-    color: white; /* রঙ সাদা করা হলো */
+    color: #ffffff; /* রঙ সাদা করা হলো */
     margin-bottom: 40px;
     line-height: 1.8;
     font-weight: bold; /* বোল্ড করা হলো */
