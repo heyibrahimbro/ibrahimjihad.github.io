@@ -52,11 +52,12 @@ nav ul li a:hover {
 }
 
 .hero {
-    background-color: #ecf0f1;
-    padding: 150px 20px 100px;
+    background: linear-gradient(135deg, #3498db, #2c3e50); /* গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড */
+    padding: 150px 20px 120px;
     text-align: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 80px auto 0;
+    color: white; /* টেক্সটের রঙ সাদা */
 }
 
 .hero-content {
@@ -65,32 +66,39 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    font-size: 3rem;
-    margin-bottom: 15px;
-    color: #2c3e50;
+    font-size: 3.5rem; /* টাইটেলের আকার বৃদ্ধি */
+    margin-bottom: 20px;
+    font-weight: bold; /* টাইটেল বোল্ড */
+    letter-spacing: 1px; /* অক্ষরের মধ্যে সামান্য ফাঁকা */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* হালকা টেক্সট শ্যাডো */
 }
 
 .hero p {
-    font-size: 1.2rem;
-    color: #777;
-    margin-bottom: 30px;
+    font-size: 1.4rem; /* সাবটাইটেলের আকার বৃদ্ধি */
+    color: #eee; /* সাবটাইটেলের হালকা রঙ */
+    margin-bottom: 40px;
+    line-height: 1.8; /* লাইন হাইট বৃদ্ধি */
+    font-weight: 300; /* হালকা ফন্ট ওয়েট */
 }
 
 .button {
     display: inline-block;
     background-color: #f39c12;
     color: white;
-    padding: 12px 25px;
+    padding: 15px 30px; /* বাটনের প্যাডিং বৃদ্ধি */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px; /* বাটনের বর্ডার রেডিয়াস বৃদ্ধি */
+    font-size: 1.2rem; /* বাটনের ফন্টের আকার বৃদ্ধি */
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* স্মুথ ট্রানজিশন */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* হালকা বাটন শ্যাডো */
 }
 
 .button:hover {
     background-color: #e67e22;
+    transform: translateY(-2px); /* হোভারে সামান্য উপরে উঠবে */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* হোভারে শ্যাডো বৃদ্ধি */
 }
-
 .about, .skills, .portfolio, .contact {
     padding: 80px 20px;
     max-width: 1200px;
