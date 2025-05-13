@@ -50,83 +50,47 @@ nav ul li a {
 nav ul li a:hover {
     color: #f39c12;
 }
+
 .hero {
-    background: linear-gradient(135deg, #007bff, #6610f2); /* আরও উজ্জ্বল গ্রেডিয়েন্ট */
-    padding: 180px 20px 150px; /* আরও বেশি প্যাডিং */
+    background-color: #ecf0f1;
+    padding: 150px 20px 100px;
     text-align: center;
     max-width: 1200px;
-    margin: 60px auto 0; /* উপরে মার্জিন কমানো */
-    color: white;
-    position: relative; /* অ্যানিমেশনের জন্য পজিশন */
-    overflow: hidden; /* অ্যানিমেশনের জন্য ক্লিপিং */
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('hero-pattern.png') repeat; /* ঐচ্ছিক টেক্সচার ব্যাকগ্রাউন্ড */
-    opacity: 0.1; /* হালকা টেক্সচার */
-    z-index: 0;
+    margin: 0 auto;
 }
 
 .hero-content {
-    position: relative; /* টেক্সট এবং বাটনকে ওভারলে এর উপরে রাখার জন্য */
-    z-index: 1;
     max-width: 800px;
     margin: 0 auto;
-    animation: fadeInUp 1s ease-in-out; /* হালকা অ্যানিমেশন */
-}
-
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .hero h1 {
-    font-size: 4rem; /* আরও বড় টাইটেল */
-    margin-bottom: 25px;
-    font-weight: 700; /* আরও গাঢ় বোল্ড */
-    color: #fff; /* উজ্জ্বল সাদা */
-    letter-spacing: 1.5px;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
 }
 
 .hero p {
-    font-size: 1.6rem; /* আরও বড় সাবটাইটেল */
-    color: #f8f9fa; /* আরও উজ্জ্বল হালকা রঙ */
-    margin-bottom: 50px;
-    line-height: 1.9;
-    font-weight: 400; /* কিছুটা হালকা বোল্ড */
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 30px;
 }
 
 .button {
     display: inline-block;
-    background-color: #ffc107; /* উজ্জ্বল হলুদ বা কমলা */
-    color: #212529; /* গাঢ় টেক্সট রঙ */
-    padding: 18px 35px; /* আরও বড় বাটন */
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 25px;
     text-decoration: none;
-    border-radius: 10px; /* আরও গোলাকার বাটন */
-    font-size: 1.3rem;
-    font-weight: 600;
-    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
 .button:hover {
-    background-color: #e0a800; /* হোভারে সামান্য গাঢ় রঙ */
-    transform: translateY(-3px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    background-color: #e67e22;
 }
+
 .about, .skills, .portfolio, .contact {
     padding: 80px 20px;
     max-width: 1200px;
