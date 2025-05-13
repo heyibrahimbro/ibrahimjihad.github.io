@@ -3,14 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibrahim Jihad</title>
+    <title>Ibrahim Jihad - পোর্টফোলিও</title>
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Internal CSS for basic styling if style.css doesn't load immediately */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            z-index: 100;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #ddd;
+        }
+        /* Add more basic styles here as needed */
+    </style>
 </head>
 <body>
-    </body>
+    <header>
+        <nav>
+            <div class="logo">Ibrahim Jihad</div>
+            <ul>
+                <li><a href="#about">আমার সম্পর্কে</a></li>
+                <li><a href="#skills">দক্ষতা</a></li>
+                <li><a href="#portfolio">পোর্টফোলিও</a></li>
+                <li><a href="#contact">যোগাযোগ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>হ্যালো, আমি <span class="name">ইব্রাহিম জিহাদ</span></h1>
+            <p class="profession">একজন <span class="role">ওয়েব ডেভেলপার</span></p>
+            <a href="#portfolio" class="button">আমার কাজ দেখুন</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>আমার সম্পর্কে</h2>
+        <div class="about-content">
+            <div class="profile-image">
+                <img src="profile.jpg" alt="ইব্রাহিম জিহাদের প্রোফাইল ছবি">
+            </div>
+            <div class="about-text">
+                <p>আমি একজন অভিজ্ঞ ওয়েব ডেভেলপার, যিনি সুন্দর এবং কার্যকরী ওয়েবসাইট তৈরি করতে আগ্রহী। আমার HTML, CSS, JavaScript এবং বিভিন্ন ফ্রেমওয়ার্ক ও লাইব্রেরিতে ভালো দক্ষতা আছে। আমি সর্বদা নতুন প্রযুক্তি শিখতে এবং আমার দক্ষতা উন্নত করতে আগ্রহী।</p>
+                <p>আমি বিশ্বাস করি একটি ভালো ওয়েবসাইট ব্যবহারকারী-বান্ধব এবং আকর্ষক হওয়া উচিত। আমার লক্ষ্য হলো এমন ওয়েবসাইট তৈরি করা যা ব্যবহারকারীদের চাহিদা পূরণ করে এবং একটি ইতিবাচক অভিজ্ঞতা দেয়।</p>
+                <a href="#" class="button">আমার সিভি দেখুন</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>দক্ষতা</h2>
+        <div class="skills-content">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>ওয়েব ডেভেলপমেন্ট</h3>
+                <p>HTML5, CSS3, JavaScript, ES6+, React, Node.js, Express.js</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i>
+                <h3>ফ্রন্ট-এন্ড ডিজাইন</h3>
+                <p>UI/UX বেসিকস, রেসপন্সিভ ডিজাইন, অ্যাক্সেসিবিলিটি</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>ডাটাবেস</h3>
+                <p>MySQL, MongoDB</p>
+            </div>
+            </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>পোর্টফোলিও</h2>
+        <div class="portfolio-content">
+            <div class="project">
+                <img src="project1.jpg" alt="প্রজেক্ট ১">
+                <h3>প্রজেক্টের নাম ১</h3>
+                <p>প্রজেক্টের সংক্ষিপ্ত বিবরণ</p>
+                <a href="#" target="_blank">লাইভ দেখুন</a>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="প্রজেক্ট ২">
+                <h3>প্রজেক্টের নাম ২</h3>
+                <p>প্রজেক্টের সংক্ষিপ্ত বিবরণ</p>
+                <a href="#" target="_blank">লাইভ দেখুন</a>
+            </div>
+            </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>যোগাযোগ</h2>
+        <div class="contact-content">
+            <p>আমার সাথে যোগাযোগ করতে চান? নিচে একটি বার্তা পাঠান অথবা সরাসরি ইমেল করুন:</p>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">নাম:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">ইমেল:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">বার্তা:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="button">বার্তা পাঠান</button>
+            </form>
+            <p class="email">অথবা ইমেল করুন: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Ibrahim Jihad। সর্বস্বত্ব সংরক্ষিত।</p>
+    </footer>
+
+    <script>
+        // Navigation toggle for smaller screens
+        const nav = document.querySelector('nav ul');
+        const navToggle = document.querySelector('.logo'); // Consider using a hamburger icon for better UX
+
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+        }
+
+        // Basic form submission handling
+        const contactForm = document.querySelector('.contact form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (event) => {
+                event.preventDefault();
+                alert('আপনার বার্তা পাঠানো হয়েছে!');
+                contactForm.reset();
+                // In a real scenario, you would send this data to a server
+            });
+        }
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Update the year in the footer
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
 </html>
