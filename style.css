@@ -76,7 +76,7 @@ nav ul li a:hover {
 
 .hero p {
     font-size: 1.4rem;
-    color: #ffffff; /* রঙ সাদা করা হলো */
+    color: #ffffff; /* রঙ উজ্জ্বল সাদা করা হলো */
     margin-bottom: 40px;
     line-height: 1.8;
     font-weight: bold; /* বোল্ড করা হলো */
@@ -343,4 +343,3 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
-
